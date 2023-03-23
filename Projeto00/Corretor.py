@@ -1,7 +1,7 @@
 class Corretor:
     def __init__(self,Nome,NumeroSusep,Apolices,contato):
-        self.Nome = Nome
-        self.NumeroSusep = NumeroSusep
-        self.Apolices = Apolices
-        self.Contato = contato
+        self.__Nome = Nome
+        self.__NumeroSusep = NumeroSusep
+        self.__Apolices = Apolices
+        self.__Contato = contato
     

@@ -1,10 +1,10 @@
 class Apolice:
     def __init__(self,Numero,Tipo,ValorPremio,Segurado,Corretor,Vigencia,DataCriacao,Status):
-        self.Numero = Numero
-        self.Tipo = Tipo
-        self.ValorPremio = ValorPremio
-        self.Segurado = Segurado
-        self.Corretor = Corretor
-        self.Vigencia = Vigencia
-        self.DataCriacao = DataCriacao
-        self.Status = Status
+        self.__Numero = Numero
+        self.__Tipo = Tipo
+        self.__ValorPremio = ValorPremio
+        self.__Segurado = Segurado
+        self.__Corretor = Corretor
+        self.__Vigencia = Vigencia
+        self.__DataCriacao = DataCriacao
+        self.__Status = Status
