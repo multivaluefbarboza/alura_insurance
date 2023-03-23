@@ -9,3 +9,7 @@ class Segurado:
        self.__Beneficiarios = beneficiarios
        self.__Apolices
 
+   @property
+   def Nome(self):
+       return self.__nome
+
